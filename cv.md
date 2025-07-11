@@ -42,6 +42,17 @@ I want to grow as a frontend developer, work in a team environment, and build hi
     - PostgreSQL
     - SQLServer
 
+## Code Example
+
+```
+function multiply(a, b){
+  return a * b;
+}
+
+let product = multiply(15, 4);
+console.log(product);
+```
+
 ## Education
 
 I am studying at the Belarusian State University of Informatics and Radioelectronics at the Faculty of Information Technology and Management in the specialty of Automated information processing systems. I will be an information technology engineer by information technology.

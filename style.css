@@ -278,8 +278,8 @@ body {
     text-align: center;
 }
 
-.footer-contacts li {
-    text-decoration: none;
+.footer-contacts ul {
+    list-style-type: none;
 }
 
 .footer-button {

@@ -203,3 +203,82 @@ body {
 }
 
 
+.container-language {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.language {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 2.1rem;
+    background-color: rgb(25, 74, 57);
+    color: rgb(255, 248, 233);
+    width: 200px;
+}
+
+
+/* footer */
+    .footer {
+        background-color: rgb(25, 74, 57);
+        padding: 2rem 1rem;
+        font-family: 'Montserrat';
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        gap: 2rem;
+    }
+
+    .social {
+        font-family: 'Montserrat';
+        text-decoration: none;
+        color:rgb(255, 248, 233);
+    }
+    .social:hover {
+        color: #ccc;
+    }
+
+    .footer-contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        color:rgb(255, 248, 233);
+        text-align: center;
+    }
+
+    .footer-button {
+        font-family: 'Montserrat';
+        background: rgb(255, 248, 233);
+        color: rgb(65, 65, 65);
+        padding: 0.56rem 1.12rem;
+        text-decoration: none;
+        border-radius: 0.315rem;
+        font-weight: bold;
+        align-self: flex-start;
+    }
+
+    .footer-button:hover {
+        background: rgb(65, 65, 65);
+        color: rgb(255, 248, 233);
+    }
+
+    .footer-bottom {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #ccc;
+        margin-bottom: 1rem;
+    }
+
+    .logo-img {
+        width: 150px;
+    }

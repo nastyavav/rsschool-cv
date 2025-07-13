@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./src/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('./src/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    background-color: rgb(25, 74, 57);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1em 0;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 2.5%;
+    width: 95%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    max-width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu {
+    display: flex;
+    text-align: right;
+    gap: 3.3755274261603376rem;
+}
+.menu li {
+    display: inline;
+}
+.menu a {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    color:rgb(255, 248, 233);
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #ccc;
+}
+
+.contact-button {
+    font-family: 'Montserrat';
+    background: rgb(255, 248, 233);
+    color: rgb(65, 65, 65);
+    padding: 0.56rem 1.12rem;
+    text-decoration: none;
+    border-radius: 0.315rem;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+.contact-button:hover {
+    background: rgb(65, 65, 65);
+    color: rgb(255, 248, 233);
+}
+
+.frame_2 {
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.title {
+    color: rgb(255, 248, 233);
+    font-family: 'Montserrat-Bold';
+    font-size: 4rem;
+    margin: 0;
+}
+
+.title2 {
+    color: rgb(255, 248, 233);
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.frame2_title {
+    color: rgb(65, 65, 65);
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+}
+
+.avatar {
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 2rem;
+}

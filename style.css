@@ -36,22 +36,6 @@ body {
     background: rgb(255, 255, 255);
 }
 
-.hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 2rem;
-    max-width: 90%;
-    height: 90vh;
-    margin: 0 auto;
-}
-
-.container-title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .menu {
     display: flex;
     text-align: right;
@@ -85,9 +69,20 @@ body {
     color: rgb(255, 248, 233);
 }
 
-.frame_2 {
-    margin: 20px;
-    border-radius: 15px;
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    max-width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .title {
@@ -110,7 +105,10 @@ body {
     margin-left: 2rem;
 }
 
-/* about_me */
+.frame_2 {
+    margin: 20px;
+    border-radius: 15px;
+}
 
 .frame2_title {
     color: rgb(65, 65, 65);
@@ -129,7 +127,6 @@ body {
     border-radius: 2.11rem;
 }
 
-/* skills */
 .container-skills {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Адаптивные колонки */
@@ -203,6 +200,21 @@ body {
     grid-column: 8;
 }
 
+.hljs-attr {
+    font-family: 'Montserrat';
+    color: rgb(65, 65, 65);
+}
+.hljs-punctuation {
+    font-family: 'Montserrat';
+    color: rgb(65, 65, 65);
+}
+.code-block pre {
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5rem;
+    border-radius: 2.11rem;
+}
 
 .container-language {
     display: flex;
@@ -223,80 +235,62 @@ body {
     width: 200px;
 }
 
-/* code */
-.hljs-attr {
+.footer {
+    background-color: rgb(25, 74, 57);
+    padding: 2rem 1rem;
     font-family: 'Montserrat';
-    color: rgb(65, 65, 65);
 }
-.hljs-punctuation {
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    gap: 2rem;
+    margin: 10px;
+}
+
+.social {
     font-family: 'Montserrat';
+    text-decoration: none;
+    color:rgb(255, 248, 233);
+}
+.social:hover {
+    color: #ccc;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    color:rgb(255, 248, 233);
+    text-align: center;
+}
+
+.footer-button {
+    font-family: 'Montserrat';
+    background: rgb(255, 248, 233);
     color: rgb(65, 65, 65);
-}
-.code-block pre {
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 1.5rem;
-    border-radius: 2.11rem;
+    padding: 0.56rem 1.12rem;
+    text-decoration: none;
+    border-radius: 0.315rem;
+    font-weight: bold;
+    align-self: flex-start;
 }
 
-/* footer */
-    .footer {
-        background-color: rgb(25, 74, 57);
-        padding: 2rem 1rem;
-        font-family: 'Montserrat';
-    }
+.footer-button:hover {
+    background: rgb(65, 65, 65);
+    color: rgb(255, 248, 233);
+}
 
-    .footer-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-size: 1.2rem;
-        gap: 2rem;
-        margin: 10px;
-    }
+.footer-bottom {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+}
 
-    .social {
-        font-family: 'Montserrat';
-        text-decoration: none;
-        color:rgb(255, 248, 233);
-    }
-    .social:hover {
-        color: #ccc;
-    }
-
-    .footer-contacts {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.75rem;
-        color:rgb(255, 248, 233);
-        text-align: center;
-    }
-
-    .footer-button {
-        font-family: 'Montserrat';
-        background: rgb(255, 248, 233);
-        color: rgb(65, 65, 65);
-        padding: 0.56rem 1.12rem;
-        text-decoration: none;
-        border-radius: 0.315rem;
-        font-weight: bold;
-        align-self: flex-start;
-    }
-
-    .footer-button:hover {
-        background: rgb(65, 65, 65);
-        color: rgb(255, 248, 233);
-    }
-
-    .footer-bottom {
-        text-align: center;
-        font-size: 0.9rem;
-        color: #ccc;
-        margin-bottom: 1rem;
-    }
-
-    .logo-img {
-        width: 150px;
-    }
+.logo-img {
+    width: 150px;
+}

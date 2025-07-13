@@ -11,6 +11,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: rgb(255, 248, 233);
 }
 
 .frame {
@@ -222,6 +223,22 @@ body {
     width: 200px;
 }
 
+/* code */
+.hljs-attr {
+    font-family: 'Montserrat';
+    color: rgb(65, 65, 65);
+}
+.hljs-punctuation {
+    font-family: 'Montserrat';
+    color: rgb(65, 65, 65);
+}
+.code-block pre {
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5rem;
+    border-radius: 2.11rem;
+}
 
 /* footer */
     .footer {
@@ -236,6 +253,7 @@ body {
         justify-content: space-between;
         font-size: 1.2rem;
         gap: 2rem;
+        margin: 10px;
     }
 
     .social {

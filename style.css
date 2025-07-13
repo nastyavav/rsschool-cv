@@ -235,6 +235,16 @@ body {
     width: 200px;
 }
 
+.projects {
+    color: rgb(65, 65, 65);
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+.projects:hover {
+    color: #ccc;
+}
+
 .footer {
     background-color: rgb(25, 74, 57);
     padding: 2rem 1rem;
